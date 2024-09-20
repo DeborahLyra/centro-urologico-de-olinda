@@ -32,7 +32,7 @@ const ImageCarousel = () => {
       {/* Back button */}
       <button
         onClick={goToPrevious}
-        className="absolute top-1/2 left-2 -translate-y-1/2 bg-blue-900 text-white p-2 rounded-full hover:bg-blue-800 transition"
+        className="absolute top-1/2 left-2 -translate-y-1/2 bg-primary text-white p-2 rounded-full hover:bg-blue-800 transition"
       >
         ❮
       </button>
@@ -40,7 +40,7 @@ const ImageCarousel = () => {
       {/*next button */}
       <button
         onClick={goToNext}
-        className="absolute top-1/2 right-2 -translate-y-1/2 bg-blue-900 text-white p-2 rounded-full hover:bg-blue-800 transition"
+        className="absolute top-1/2 right-2 -translate-y-1/2 bg-primary text-white p-2 rounded-full hover:bg-blue-800 transition"
       >
         ❯
       </button>
@@ -52,7 +52,7 @@ const ImageCarousel = () => {
             key={index}
             onClick={() => setCurrentIndex(index)}
             className={`w-3 h-3 rounded-full cursor-pointer ${
-              currentIndex === index ? "bg-blue-900" : "bg-blue-400"
+              currentIndex === index ? "bg-primary" : "bg-blue-800"
             }`}
           />
         ))}

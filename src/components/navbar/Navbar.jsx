@@ -43,7 +43,7 @@ export function Navbar() {
                     href={item.href}
                     aria-current={item.current ? 'page' : undefined}
                     className={classNames(
-                      item.current ? 'bg-blue-800 text-white' : 'text-gray-900 hover:bg-blue-700 hover:text-white',
+                      item.current ? 'bg-primary text-white' : 'text-gray-900 hover:bg-primary hover:text-white',
                       'rounded-md px-3 py-2 text-sm font-medium',
                     )}
                   >
@@ -67,7 +67,7 @@ export function Navbar() {
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(
-                item.current ? 'bg-blue-800 text-white' : 'text-gray-900 hover:bg-blue-700 hover:text-white',
+                item.current ? 'bg-primary text-white' : 'text-gray-900 hover:bg-primary hover:text-white',
                 'block rounded-md px-3 py-2 text-base font-medium',
               )}
             >
