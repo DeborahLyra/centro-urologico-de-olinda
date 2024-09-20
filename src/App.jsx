@@ -1,4 +1,6 @@
-import { Navbar } from "./containers/navbar/Navbar"
+
+import ImageCarousel from "./components/carousel/Carousel"
+import { Navbar } from "./components/navbar/Navbar"
 
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
   return (
     <>
      <Navbar/>
+    <ImageCarousel/>
     </>
   )
 }
