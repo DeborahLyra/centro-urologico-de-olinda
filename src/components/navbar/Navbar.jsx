@@ -3,9 +3,10 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '/imgs/logo-centro-urologico-olinda.png'
 
 const navigation = [
-  { name: 'Sobre Nós', href: '#', current: false },
-  { name: 'Nossa Clínica', href: '#', current: false },
-  { name: 'Localização', href: '#', current: false },
+  { name: 'Nossa Equipe', href: '#', current: false },
+  { name: 'Sobre a Clínica', href: '#', current: false },
+  { name: 'Exames', href: '#', current: false },
+  { name: 'Localização', href: '#', current: false }, 
   { name: 'Agende uma Consulta', href: '#', current: true },
 ]
 
