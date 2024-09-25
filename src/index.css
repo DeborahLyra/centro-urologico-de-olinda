@@ -28,4 +28,17 @@ a {
   text-decoration: none;
 }
 
+/* Custom scrollbar for modern browsers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Largura da scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #f3f4f6; /* Cor da barra de rolagem (gray-100) */
+  border-radius: 9999px; /* Faz a barra de rolagem arredondada */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* Cor do fundo da área de rolagem (gray-200) */
+}
 

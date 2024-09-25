@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import logo1  from "/public/imgs/centro-uro-1.jpeg"
+import logo2 from "/public/imgs/centro-uro-2.jpeg"
 
 const images = [
-  "https://via.placeholder.com/900x400/FF5733/FFFFFF?text=Slide+1",
-  "https://via.placeholder.com/900x400/33C1FF/FFFFFF?text=Slide+2",
+  logo1,
+  logo2,
   "https://via.placeholder.com/900x400/75FF33/FFFFFF?text=Slide+3"
 ];
 
@@ -22,10 +24,10 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div className="max-w-full h-64 relative group">
+    <div className="max-w-full h-64 relative group md:h-84 lg:h-96">
       {/* Imagem */}
       <div
-        className="w-full h-full bg-cover bg-center transition-all duration-500 ease-in-out"
+        className="w-full h-full bg-cover bg-center transition-all duration-500 ease-in-out bg-no-repeat"
         style={{ backgroundImage: `url(${images[currentIndex]})` }}
       ></div>
 
