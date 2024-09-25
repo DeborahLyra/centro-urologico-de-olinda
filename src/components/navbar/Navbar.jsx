@@ -1,6 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '/imgs/logo-centro-urologico-olinda.png'
+import logo from '/imgs/logo.jpeg'
+
 
 const navigation = [
   { name: 'Nossa Equipe', href: '#', current: false },
@@ -33,7 +34,7 @@ export function Navbar() {
               <img
                 alt="Your Company"
                 src={logo}
-                className="h-8 w-auto"
+                className="h-8 w-auto rounded-full"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
