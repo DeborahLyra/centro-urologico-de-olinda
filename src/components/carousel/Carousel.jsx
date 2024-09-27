@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import logo1  from "/public/imgs/centro-uro-1.jpeg"
 import logo2 from "/public/imgs/centro-uro-2.jpeg"
+import allDocs from "/public/imgs/banner-todos.jpeg"
 
 const images = [
+  allDocs,
   logo1,
   logo2,
-  "https://via.placeholder.com/900x400/75FF33/FFFFFF?text=Slide+3"
 ];
 
 const ImageCarousel = () => {
