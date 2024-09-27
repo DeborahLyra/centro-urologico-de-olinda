@@ -73,20 +73,28 @@ export function ListOfDoctors() {
         
 
 
-        <div className="overflow-x-auto py-8">
+        <div className="relative overflow-x-auto py-8">
           <ul className="grid grid-cols-5 gap-x-6 gap-y-2 min-w-[1000px] sm:grid-cols-5">
             {people.map((person, index) => (
               <li key={index} className="flex flex-col p-0">
                 <img
                   src={person.imageUrl}
                   alt={`Imagem ${index + 1}`}
-                  className="h-56 w-full rounded object-cover"
+                  className="h-60 w-full rounded object-cover"
                 />
-                <p className="mt-2 text-sm font-bold text-left text-gray-700 ">{person.name}</p>
+                <p className="mt-2 text-sm font-bold text-left text-gray-700">{person.name}</p>
                 <p className="mt-2 text-sm font-medium text-left text-gray-700">{person.role}</p>
               </li>
             ))}
           </ul>
+
+          {/* Indicativo de scroll */}
+          <div className="absolute top-0 right-0 w-10 h-full bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
+
+          {/* Barra de Rolagem */}
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-primary pointer-events-none">
+            <div className="h-full bg-primary transition-all duration-300 ease-in-out" style={{ width: '100%' }} />
+          </div>
         </div>
 
 
