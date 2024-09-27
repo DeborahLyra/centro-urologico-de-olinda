@@ -45,12 +45,12 @@ export function AboutTheClinic() {
             {/* exames principais */}
             <div className="mt-6 space-y-6">
                 {mainProcedures.map((procedure, index) => (
-                    <div key={procedure.name} className={`group relative flex my-4 items-center justify-evenly flex-col md:flex-row ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
-                        <div className="relative h-80 w-fit overflow-hidden sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 sm:h-64 sm:mb-2">
+                    <div key={procedure.name} className={`group relative flex my-2 items-center justify-evenly flex-col md:flex-row ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
+                        <div className="relative h-80 w-fit overflow-hidden sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 sm:h-64 sm:mb-2 lg:h-full">
                             <img
                                 alt={procedure.imageAlt}
                                 src={procedure.imageSrc}
-                                className="h-full  w-80 object-cover object-center lg:w-96"
+                                className="h-full w-80 object-cover object-center md:h-96 lg:w-96"
                             />
                         </div>
                         <div>
@@ -64,8 +64,8 @@ export function AboutTheClinic() {
 
 
             {/* outros exames */}
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+            <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div className="mx-auto max-w-2xl py-6 sm:py-24 lg:max-w-none lg:py-16">
                     <h2 className="text-2xl font-bold text-primary text-center">Mais Especialidades da Equipe</h2>
 
                     <div className="mt-6 lg:grid lg:grid-cols-2 lg:gap-x-2 lg:space-y-0 space-y-6">

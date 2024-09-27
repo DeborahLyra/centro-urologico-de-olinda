@@ -3,9 +3,9 @@ import logo1  from "/public/imgs/centro-uro-1.jpeg"
 import logo2 from "/public/imgs/centro-uro-2.jpeg"
 import allDocs from "/public/imgs/banner-todos.jpeg"
 
-const images = [
-  allDocs,
+const images = [ 
   logo1,
+  allDocs,
   logo2,
 ];
 
