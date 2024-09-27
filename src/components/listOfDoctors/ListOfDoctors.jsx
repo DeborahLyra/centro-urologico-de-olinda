@@ -89,11 +89,16 @@ export function ListOfDoctors() {
           </ul>
 
           {/* Indicativo de scroll */}
-          <div className="absolute top-0 right-0 w-10 h-full bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
+          <div className="absolute top-0 right-0 w-10 h-full  pointer-events-none"></div>
+
+          {/* Texto Indicativo */}
+          <div className="flex justify-center mt-2 lg:hidden">
+            <span className="text-gray-500 text-sm">Deslize para ver mais</span>
+          </div>
 
           {/* Barra de Rolagem */}
-          <div className="absolute bottom-0 left-0 w-full h-1 bg-primary pointer-events-none">
-            <div className="h-full bg-primary transition-all duration-300 ease-in-out" style={{ width: '100%' }} />
+          <div className="absolute bottom-0 left-0 w-full h-1 pointer-events-none lg:bg-transparent">
+            <div className="h-full bg-gray-300 transition-all duration-300 ease-in-out lg:bg-transparent" style={{ width: '50%' }} />
           </div>
         </div>
 
