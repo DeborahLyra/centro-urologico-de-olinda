@@ -10,6 +10,7 @@ export function Footer() {
         <div className='bg-darkBlue h-24'>
             <div className=' w-full h-full flex p-4 items-center justify-between'>
                 <img src={logo} alt="" className='h-10'/>
+                
                 <div className='flex items-center gap-8'>
                     <a href=""><WhatsappLogo size={32}/></a>
                     <a href=""><InstagramLogo size={32}/></a>
