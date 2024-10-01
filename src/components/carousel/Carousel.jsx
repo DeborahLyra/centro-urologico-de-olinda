@@ -35,7 +35,7 @@ const ImageCarousel = () => {
       {/* Back button */}
       <button
         onClick={goToPrevious}
-        className="absolute top-1/2 left-2 -translate-y-1/2 bg-primary text-white p-2 rounded-full hover:bg-blue-800 transition"
+        className="absolute top-1/2 left-2 -translate-y-1/2  text-white p-2 rounded-full hover:bg-blue-800 transition"
       >
         ❮
       </button>
@@ -43,7 +43,7 @@ const ImageCarousel = () => {
       {/*next button */}
       <button
         onClick={goToNext}
-        className="absolute top-1/2 right-2 -translate-y-1/2 bg-primary text-white p-2 rounded-full hover:bg-blue-800 transition"
+        className="absolute top-1/2 right-2 -translate-y-1/2 text-white p-2 rounded-full hover:bg-blue-800 transition"
       >
         ❯
       </button>
