@@ -61,7 +61,7 @@ const people = [
     },
     {
       name: 'Sérgio Moraes',
-      role: 'Urologia, Endourologia e Transplante Renal',
+      role: 'Urologia, Endourologia, Cirurgia Robótica e Transplante Renal',
       imageUrl: sergioMoraes,
       urlPage: ''
     },
