@@ -77,7 +77,7 @@ export function ListOfDoctors() {
                 <img
                   src={person.imageUrl}
                   alt={`Imagem ${index + 1}`}
-                  className="h-60 w-full rounded object-cover"
+                  className="h-48 w-full rounded object-cover md:h-60 lg:h-60"
                 />
                 <p className="mt-2 text-sm font-bold text-left text-gray-700">{person.name}</p>
                 <p className="mt-2 text-sm font-medium text-left text-gray-700">{person.role}</p>

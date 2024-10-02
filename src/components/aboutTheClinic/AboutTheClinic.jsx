@@ -33,12 +33,12 @@ export function AboutTheClinic() {
     return (
         <>
             <div className="bg-lightBlue py-24 sm:py-32 ">
-                <h2 className="text-3xl font-bold tracking-tight ml-24 text-primary sm:text-4xl mb-4">Exames</h2>
+                <h2 className="text-3xl font-bold tracking-tight ml-16 text-primary sm:text-4xl mb-4">Exames</h2>
 
                 {/* exames principais */}
                 <div className="mt-4 p-4  pb-8 space-y-6 md:bg-white lg:bg-white md:w-9/12 lg:w-9/12 rounded-md m-auto">
                     {mainProcedures.map((procedure, index) => (
-                        <div key={procedure.name} className={`group relative flex my-2 items-center justify-evenly flex-col md:w-full lg:w-full md:flex-row ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
+                        <div key={procedure.name} className={`group relative flex my-2 items-center justify-evenly flex-col md:w-full lg:w-full lg:flex-row ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
                             <div className="relative h-full w-96 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 sm:h-64 sm:mb-2 lg:h-full lg:w-96">
                                 <img
                                     alt={procedure.imageAlt}
@@ -46,7 +46,7 @@ export function AboutTheClinic() {
                                     className="h-full w-10/12 md:w-full m-auto lg:w-full object-cover"
                                 />
                             </div>
-                            <div className='w-10/12 md:w-6/12 lg:w-6/12'>
+                            <div className='w-10/12 lg:w-6/12'>
                                 <h3 className="mt-6 text-lg font-semibold text-primary">{procedure.name}</h3>
                                 <p className="text-base text-justify  text-gray-900">{procedure.description}</p>
                             </div>
