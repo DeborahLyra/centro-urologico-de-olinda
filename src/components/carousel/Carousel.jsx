@@ -1,13 +1,9 @@
 import React, { useState } from "react";
-import logo1  from "/public/imgs/centro-uro-1.jpeg"
-import logo2 from "/public/imgs/funcionarios.png"
-import allDocs from "/public/imgs/medicos.png"
+import logo1 from "/public/imgs/centro-uro-1.jpeg";
+import logo2 from "/public/imgs/funcionarios.png";
+import allDocs from "/public/imgs/medicos.png";
 
-const images = [ 
-  logo1,
-  allDocs,
-  logo2,
-];
+const images = [logo1, allDocs, logo2];
 
 const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,15 +20,20 @@ const ImageCarousel = () => {
     setCurrentIndex(newIndex);
   };
 
+  const getBackgroundPosition = () => {
+    // Se for a terceira imagem (índice 2), aplica bg-bottom para telas médias e grandes
+    return currentIndex === 2 ? "md:bg-top lg:bg-top" : "";
+  };
+
   return (
     <div className="max-w-full h-64 relative group md:h-84 lg:h-96">
       {/* Imagem */}
       <div
-        className="w-full h-full bg-contain bg-center transition-all duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover "
-        style={{backgroundImage: `url(${images[currentIndex]})`}}
+        className={`w-full h-full bg-contain bg-center transition-all duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover ${getBackgroundPosition()}`}
+        style={{ backgroundImage: `url(${images[currentIndex]})` }}
       ></div>
 
-      {/* Back button */}
+      {/* Botão para voltar */}
       <button
         onClick={goToPrevious}
         className="absolute top-1/2 left-2 -translate-y-1/2 text-white p-2 rounded-full lg:hover:bg-blue-800 transition"
@@ -40,7 +41,7 @@ const ImageCarousel = () => {
         ❮
       </button>
 
-      {/*next button */}
+      {/* Botão para avançar */}
       <button
         onClick={goToNext}
         className="absolute top-1/2 right-2 -translate-y-1/2 text-white p-2 rounded-full lg:hover:bg-blue-800 transition"
@@ -48,7 +49,7 @@ const ImageCarousel = () => {
         ❯
       </button>
 
-      {/* Indicators */}
+      {/* Indicadores */}
       <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
         {images.map((_, index) => (
           <div

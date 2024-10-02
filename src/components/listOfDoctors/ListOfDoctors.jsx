@@ -8,13 +8,19 @@ import robertaNovaes from '/public/imgs/doctors/roberta-novaes.jpeg'
 import rodolfoBrilhante from '/public/imgs/doctors/rodolfo-brilhante.jpeg'
 import sergioMoraes from '/public/imgs/doctors/sergio-moraes.jpeg'
 import wiltonBezerra from '/public/imgs/doctors/wilton-bezerra.jpeg'
-
+import defaultProfile from '/public/imgs/profile-default-pic.webp'
 
 const people = [
   {
     name: 'Abelardo Alves',
     role: 'Urologia, Uroneurologia e Cirurgia Robótica',
     imageUrl: abelardoAlves,
+    urlPage: ''
+  },
+  {
+    name: 'Carolina Mayumi',
+    role: 'Urologia Feminina e Urodinâmica',
+    imageUrl: defaultProfile,
     urlPage: ''
   },
   {
@@ -57,6 +63,12 @@ const people = [
       name: 'Rodolfo Brilhante',
       role: 'Urologia e Cirurgia Reconstrutora',
       imageUrl:rodolfoBrilhante,
+      urlPage: ''
+    },
+    {
+      name: 'Sandra Santana',
+      role: 'Fisioterapeuta Pélvica',
+      imageUrl: sergioMoraes,
       urlPage: ''
     },
     {
