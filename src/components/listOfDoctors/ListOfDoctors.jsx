@@ -9,7 +9,8 @@ import rodolfoBrilhante from '/public/imgs/doctors/rodolfo-brilhante.jpeg'
 import sergioMoraes from '/public/imgs/doctors/sergio-moraes.jpeg'
 import wiltonBezerra from '/public/imgs/doctors/wilton-bezerra.jpeg'
 import carolinaMayumi from '/public/imgs/doctors/carolina-mayumi.jpeg'
-import defaultProfile from '/public/imgs/profile-default-pic.webp'
+import sandraSantana from '/public/imgs/doctors/sandra-santana.png'
+
 
 const people = [
   {
@@ -69,7 +70,7 @@ const people = [
     {
       name: 'Sandra Santana',
       role: 'Fisioterapeuta Pélvica',
-      imageUrl: defaultProfile,
+      imageUrl: sandraSantana,
       urlPage: ''
     },
     {
