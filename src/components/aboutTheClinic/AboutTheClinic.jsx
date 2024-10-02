@@ -43,7 +43,7 @@ export function AboutTheClinic() {
                                 <img
                                     alt={procedure.imageAlt}
                                     src={procedure.imageSrc}
-                                    className="h-full w-10/12 md:w-full m-auto lg:w-full object-cover"
+                                    className="h-full w-10/12 rounded-md md:w-full m-auto lg:w-full object-cover"
                                 />
                             </div>
                             <div className='w-10/12 lg:w-6/12'>

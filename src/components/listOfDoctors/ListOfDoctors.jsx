@@ -68,7 +68,7 @@ const people = [
     {
       name: 'Sandra Santana',
       role: 'Fisioterapeuta Pélvica',
-      imageUrl: sergioMoraes,
+      imageUrl: defaultProfile,
       urlPage: ''
     },
     {
@@ -100,7 +100,7 @@ export function ListOfDoctors() {
                   <img
                     src={person.imageUrl}
                     alt={`Imagem ${index + 1}`}
-                    className="h-48 w-full rounded object-cover md:h-60 lg:h-60"
+                    className="h-48 w-full rounded object-cover md:h-56 lg:h-56"
                   />
                 </a>
                 <p className="mt-2 text-sm font-bold text-left text-gray-700">{person.name}</p>
