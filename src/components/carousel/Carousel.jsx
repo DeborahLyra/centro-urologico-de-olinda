@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo1  from "/public/imgs/centro-uro-1.jpeg"
-import logo2 from "/public/imgs/centro-uro-2.jpeg"
-import allDocs from "/public/imgs/banner-todos.jpeg"
+import logo2 from "/public/imgs/funcionarios.png"
+import allDocs from "/public/imgs/medicos.png"
 
 const images = [ 
   logo1,
@@ -28,14 +28,14 @@ const ImageCarousel = () => {
     <div className="max-w-full h-64 relative group md:h-84 lg:h-96">
       {/* Imagem */}
       <div
-        className="w-full h-full bg-contain bg-center transition-all duration-500 ease-in-out bg-no-repeat lg:bg-cover "
-        style={{ backgroundImage: `url(${images[currentIndex]})` }}
+        className="w-full h-full bg-contain bg-center transition-all duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover "
+        style={{backgroundImage: `url(${images[currentIndex]})`}}
       ></div>
 
       {/* Back button */}
       <button
         onClick={goToPrevious}
-        className="absolute top-1/2 left-2 -translate-y-1/2  text-white p-2 rounded-full lg:hover:bg-blue-800 transition"
+        className="absolute top-1/2 left-2 -translate-y-1/2 text-white p-2 rounded-full lg:hover:bg-blue-800 transition"
       >
         ❮
       </button>

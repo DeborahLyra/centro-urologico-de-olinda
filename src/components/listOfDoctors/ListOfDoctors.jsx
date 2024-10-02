@@ -65,11 +65,11 @@ const people = [
 
 export function ListOfDoctors() {
   return (
-    <div className="bg-lightBlue py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32">
       <div className="max-w-2xl ml-8 mb-4">
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">Conheça Nossa Equipe</h2>
         </div>
-      <div className="bg-white mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 rounded lg:px-8 ">
+      <div className=" mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 rounded lg:px-8 ">
         <div className="relative overflow-x-auto py-8">
           <ul className="grid grid-cols-5 gap-x-6 gap-y-2 min-w-[1000px] sm:grid-cols-5">
             {people.map((person, index) => (
