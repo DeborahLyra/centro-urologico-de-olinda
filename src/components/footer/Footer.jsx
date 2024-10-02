@@ -6,7 +6,7 @@ import { Envelope, FacebookLogo, InstagramLogo, WhatsappLogo } from 'phosphor-re
 export function Footer() {
   return (
     <footer>
-        <img src={image} alt="" className='h-32 w-full bg-cover bg-bottom' />
+        <img src={image} alt="" className='h-40 w-full bg-cover bg-bottom' />
         <div className='bg-darkBlue h-24'>
             <div className=' w-full h-full flex p-4 items-center justify-between'>
                 <img src={logo} alt="" className='h-10'/>

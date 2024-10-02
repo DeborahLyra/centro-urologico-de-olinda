@@ -1,48 +1,33 @@
 import React from 'react'
 import exame1 from '/public/imgs/exame-1.jpeg'
 import exame2 from '/public/imgs/exame-2.jpeg'
+import exame3 from '/public/imgs/exame-3.png'
 
 const mainProcedures = [
     {
         name: 'Urofluxometria',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        description: 'A urofluxometria é um exame urológico não invasivo que avalia o fluxo urinário do paciente. Ele mede a quantidade de urina expelida, a velocidade do jato urinário e o tempo necessário para esvaziar a bexiga. Durante o exame, o paciente urina em um dispositivo que registra essas informações. É útil no diagnóstico de problemas como obstruções urinárias, hiperplasia prostática benigna (HPB) e distúrbios de esvaziamento vesical. Os resultados ajudam o médico a identificar possíveis alterações no trato urinário inferior e a definir o tratamento mais adequado. O exame é rápido e indolor.',
         imageSrc: exame1,
-        imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+        imageAlt: 'Urofluxometria',
         href: '#',
     },
     {
         name: 'Dopler Peniano',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        description: 'O Doppler Peniano é um exame utilizado para avaliar o fluxo sanguíneo no pênis, principalmente em casos de disfunção erétil. Ele mede a circulação nas artérias e veias do pênis, verificando se há alterações que possam comprometer a ereção. O exame é realizado com um ultrassom, muitas vezes após a aplicação de um medicamento que provoca ereção, permitindo observar a resposta vascular. Ele ajuda a diagnosticar causas vasculares da disfunção erétil, como insuficiência arterial ou fuga venosa. O Doppler Peniano é seguro, minimamente invasivo e oferece informações importantes para o tratamento.',
         imageSrc: exame2,
-        imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+        imageAlt: 'Dopler Peniano',
         href: '#',
     },
 
     {
-        name: 'Dopler Peniano',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        imageSrc: exame2,
-        imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+        name: 'Peniscopia',
+        description: 'A peniscopia é um exame médico utilizado para inspecionar a superfície do pênis. Durante o procedimento, o médico usa um aparelho de aumento, semelhante a um microscópio, chamado colposcópio, para examinar detalhadamente a pele do pênis, região perianal e escroto. Em alguns casos, pode ser aplicada uma solução de ácido acético para evidenciar lesões invisíveis a olho nu. A peniscopia é importante para a detecção precoce de lesões que podem evoluir para câncer ou outras complicações. O exame é simples, indolor e rápido.',
+        imageSrc: exame3,
+        imageAlt: 'Peniscopia',
         href: '#',
     },
 ]
 
-const callouts = [
-    {
-        name: 'Cirurgia 1',
-        description: '..............................',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
-        imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-        href: '#',
-    },
-    {
-        name: 'Cirurgia 2',
-        description: '............................',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
-        imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-        href: '#',
-    },
-]
 
 export function AboutTheClinic() {
     return (
@@ -51,7 +36,7 @@ export function AboutTheClinic() {
                 <h2 className="text-3xl font-bold tracking-tight ml-24 text-primary sm:text-4xl mb-4">Exames</h2>
 
                 {/* exames principais */}
-                <div className="mt-6 p-4 space-y-6 md:bg-white lg:bg-white md:w-9/12 lg:w-9/12 rounded-md m-auto">
+                <div className="mt-4 p-4  pb-8 space-y-6 md:bg-white lg:bg-white md:w-9/12 lg:w-9/12 rounded-md m-auto">
                     {mainProcedures.map((procedure, index) => (
                         <div key={procedure.name} className={`group relative flex my-2 items-center justify-evenly flex-col md:w-full lg:w-full md:flex-row ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
                             <div className="relative h-full w-96 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 sm:h-64 sm:mb-2 lg:h-full lg:w-96">
