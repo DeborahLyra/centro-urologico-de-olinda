@@ -15,51 +15,61 @@ const people = [
     name: 'Abelardo Alves',
     role: 'Urologia, Uroneurologia e Cirurgia Robótica',
     imageUrl: abelardoAlves,
+    urlPage: ''
   },
   {
       name: 'Márcio Novaes',
       role: 'Urologia Geral e IST',
       imageUrl: marcioNovaes,
+      urlPage: ''
     },
     {
       name: 'Márcio A. Novaes',
       role: 'Clínico Geral',
       imageUrl: marcioNovaesJR ,
+      urlPage: ''
     },
     {
       name: 'MUrilo Ferreira',
       role: 'Urologia, Endorologia e Cirurgia Robótica',
       imageUrl: muriloFerreira,
+      urlPage: ''
     },
     {
       name: 'Renato Leal',
       role: 'Urologia, Endorologia e Cirurgia Robótica',
       imageUrl: renatoLeal,
+      urlPage: ''
     },
     {
       name: 'Ricardo Lyra',
       role: 'Urologia e Andrologia',
       imageUrl: ricardoLyra,
+      urlPage: 'https://ricardolyraandrologista.com.br/'
     },
     {
       name: 'Roberta Novaes',
       role: 'Fisioterapeuta Pélvica',
       imageUrl:robertaNovaes,
+      urlPage: ''
     },
     {
       name: 'Rodolfo Brilhante',
       role: 'Urologia e Cirurgia Reconstrutora',
       imageUrl:rodolfoBrilhante,
+      urlPage: ''
     },
     {
       name: 'Sérgio Moraes',
       role: 'Urologia, Endorologia e Transplante Renal',
       imageUrl: sergioMoraes,
+      urlPage: ''
     },
     {
       name: 'Wilton Bezerra',
       role: 'Urologia Geral e Medicina Esportiva',
       imageUrl: wiltonBezerra,
+      urlPage: ''
     },
 ]
 
@@ -74,11 +84,13 @@ export function ListOfDoctors() {
           <ul className="grid grid-cols-5 gap-x-6 gap-y-2 min-w-[1000px] sm:grid-cols-5">
             {people.map((person, index) => (
               <li key={index} className="flex flex-col p-0">
-                <img
-                  src={person.imageUrl}
-                  alt={`Imagem ${index + 1}`}
-                  className="h-48 w-full rounded object-cover md:h-60 lg:h-60"
-                />
+                <a href={person.urlPage} target='_blank'>
+                  <img
+                    src={person.imageUrl}
+                    alt={`Imagem ${index + 1}`}
+                    className="h-48 w-full rounded object-cover md:h-60 lg:h-60"
+                  />
+                </a>
                 <p className="mt-2 text-sm font-bold text-left text-gray-700">{person.name}</p>
                 <p className="mt-2 text-sm font-medium text-left text-gray-700">{person.role}</p>
               </li>
