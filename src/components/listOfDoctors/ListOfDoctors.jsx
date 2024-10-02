@@ -75,7 +75,7 @@ const people = [
 
 export function ListOfDoctors() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-16 sm:py-32">
       <div className="max-w-2xl ml-8 mb-4">
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">Conheça Nossa Equipe</h2>
         </div>
