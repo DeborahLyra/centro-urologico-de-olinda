@@ -8,7 +8,7 @@ export function Contact() {
             <div className='bg-primary p-8'>
                 <h2 className="text-4xl font-bold tracking-tight ml-16 text-white sm:text-4xl mb-4">Agende Sua Consulta</h2>
 
-                <div className='bg-lightBlue rounded-md p-4 lg:mx-32'>
+                <div className='bg-lightBlue rounded-lg p-4 lg:mx-32'>
                     <h4 className='text-primary font-bold mb-4'>Centro Urológico de Olinda</h4>
                     <div>
                         <div className='flex items-center text-black font-semibold mb-4'>

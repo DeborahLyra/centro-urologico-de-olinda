@@ -8,6 +8,7 @@ import robertaNovaes from '/public/imgs/doctors/roberta-novaes.jpeg'
 import rodolfoBrilhante from '/public/imgs/doctors/rodolfo-brilhante.jpeg'
 import sergioMoraes from '/public/imgs/doctors/sergio-moraes.jpeg'
 import wiltonBezerra from '/public/imgs/doctors/wilton-bezerra.jpeg'
+import carolinaMayumi from '/public/imgs/doctors/carolina-mayumi.jpeg'
 import defaultProfile from '/public/imgs/profile-default-pic.webp'
 
 const people = [
@@ -20,7 +21,7 @@ const people = [
   {
     name: 'Carolina Mayumi',
     role: 'Urologia Feminina e Urodinâmica',
-    imageUrl: defaultProfile,
+    imageUrl: carolinaMayumi,
     urlPage: ''
   },
   {
