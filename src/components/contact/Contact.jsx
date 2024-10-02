@@ -6,7 +6,7 @@ export function Contact() {
         <div className="bg-white py-16 sm:py-32 ">
             <h2 className="text-3xl font-bold tracking-tight ml-16 text-primary sm:text-4xl mb-4">Contato</h2>
             <div className='bg-primary p-8'>
-                <h2 className="text-4xl font-bold tracking-tight ml-16 text-white sm:text-4xl mb-4">Agende Sua Consulta</h2>
+                <h2 className="text-3xl md:text-4xllg:text-4xl font-bold tracking-tight ml-4 md:ml-16 lg:ml-16 text-white sm:text-4xl mb-4">Agende Sua Consulta</h2>
 
                 <div className='bg-lightBlue rounded-lg p-4 lg:mx-32'>
                     <h4 className='text-primary font-bold mb-4'>Centro Urológico de Olinda</h4>
