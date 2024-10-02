@@ -12,8 +12,8 @@ const mainProcedures = [
         href: '#',
     },
     {
-        name: 'Dopler Peniano',
-        description: 'O Doppler Peniano é um exame utilizado para avaliar o fluxo sanguíneo no pênis, principalmente em casos de disfunção erétil. Ele mede a circulação nas artérias e veias do pênis, verificando se há alterações que possam comprometer a ereção. O exame é realizado com um ultrassom, muitas vezes após a aplicação de um medicamento que provoca ereção, permitindo observar a resposta vascular. Ele ajuda a diagnosticar causas vasculares da disfunção erétil, como insuficiência arterial ou fuga venosa. O Doppler Peniano é seguro, minimamente invasivo e oferece informações importantes para o tratamento.',
+        name: 'Dopler Peniano e Testicular',
+        description: 'O Doppler Peniano e Testicular são exames ultrassonográficos usados para avaliar o fluxo sanguíneo no pênis e nos testículos. O Doppler Peniano é aplicado em casos de disfunção erétil, medindo a circulação nas artérias e veias do pênis para identificar problemas vasculares, como insuficiência arterial ou fuga venosa. Já o Doppler Testicular avalia a vascularização dos testículos, sendo útil no diagnóstico de varicocele, torção testicular e tumores. Ambos os exames são seguros, minimamente invasivos e fornecem informações essenciais para o tratamento de condições urológicas, contribuindo para uma avaliação completa da saúde masculina.',
         imageSrc: exame2,
         imageAlt: 'Dopler Peniano',
         href: '#',
