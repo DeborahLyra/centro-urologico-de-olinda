@@ -31,13 +31,13 @@ const people = [
     },
     {
       name: 'Murilo Ferreira',
-      role: 'Urologia, Endorologia e Cirurgia Robótica',
+      role: 'Urologia, Endourologia e Cirurgia Robótica',
       imageUrl: muriloFerreira,
       urlPage: ''
     },
     {
       name: 'Renato Leal',
-      role: 'Urologia, Endorologia e Cirurgia Robótica',
+      role: 'Urologia, Endourologia e Cirurgia Robótica',
       imageUrl: renatoLeal,
       urlPage: ''
     },
@@ -61,7 +61,7 @@ const people = [
     },
     {
       name: 'Sérgio Moraes',
-      role: 'Urologia, Endorologia e Transplante Renal',
+      role: 'Urologia, Endourologia e Transplante Renal',
       imageUrl: sergioMoraes,
       urlPage: ''
     },
