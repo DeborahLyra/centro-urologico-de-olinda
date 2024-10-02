@@ -93,7 +93,8 @@ export function ListOfDoctors() {
         </div>
       <div className=" mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 rounded lg:px-8 ">
         <div className="relative overflow-x-auto py-8">
-          <ul className="grid grid-cols-5 gap-x-6 gap-y-2 min-w-[1000px] sm:grid-cols-5">
+
+          <ul className="grid grid-cols-6 gap-x-6 gap-y-2 min-w-[1000px] sm:grid-cols-6">
             {people.map((person, index) => (
               <li key={index} className="flex flex-col p-0">
                 <a href={person.urlPage} target='_blank'>
