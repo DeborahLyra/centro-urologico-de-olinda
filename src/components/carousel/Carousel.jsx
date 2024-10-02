@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo1 from "/public/imgs/centro-uro-1.jpeg";
 import logo2 from "/public/imgs/funcionarios.png";
 import allDocs from "/public/imgs/medicos.png";
@@ -24,6 +24,15 @@ const ImageCarousel = () => {
     // Se for a terceira imagem (índice 2), aplica bg-bottom para telas médias e grandes
     return currentIndex === 2 ? "md:bg-top lg:bg-top" : "";
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      goToNext(); 
+    }, 5000);
+
+    return () => clearInterval(interval); 
+  }, [currentIndex]);
+
 
   return (
     <div className="max-w-full h-64 relative group md:h-84 lg:h-96">
