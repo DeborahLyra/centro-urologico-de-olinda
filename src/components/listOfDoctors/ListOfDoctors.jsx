@@ -30,7 +30,7 @@ const people = [
       urlPage: ''
     },
     {
-      name: 'MUrilo Ferreira',
+      name: 'Murilo Ferreira',
       role: 'Urologia, Endorologia e Cirurgia Robótica',
       imageUrl: muriloFerreira,
       urlPage: ''
