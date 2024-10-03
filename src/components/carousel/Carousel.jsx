@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import logo1 from "/public/imgs/centro-uro-1.jpeg";
 import logo2 from "/public/imgs/funcionarios.png";
 import allDocs from "/public/imgs/medicos.png";
+import allTeam from "/public/imgs/banner-equipe.png";
 
-const images = [logo1, allDocs, logo2];
+const images = [logo1,  allTeam, logo2];
 
 const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,7 +23,7 @@ const ImageCarousel = () => {
 
   const getBackgroundPosition = () => {
     // Se for a terceira imagem (índice 2), aplica bg-bottom para telas médias e grandes
-    return currentIndex === 2 ? "md:bg-top lg:bg-top" : "";
+    return currentIndex === 1 ? " md:bg-bottom lg:bg-bottom" : "";
   };
 
   useEffect(() => {
@@ -38,7 +39,7 @@ const ImageCarousel = () => {
     <div className="max-w-full h-64 relative group md:h-84 lg:h-96">
       {/* Imagem */}
       <div
-        className={`w-full h-full bg-contain bg-center transition-all duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover ${getBackgroundPosition()}`}
+        className={`w-full h-full bg-contain bg-bottom transition-all duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover ${getBackgroundPosition()}`}
         style={{ backgroundImage: `url(${images[currentIndex]})` }}
       ></div>
 
