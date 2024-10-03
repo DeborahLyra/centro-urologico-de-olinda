@@ -23,7 +23,7 @@ const ImageCarousel = () => {
 
   const getBackgroundPosition = () => {
     // Se for a terceira imagem (índice 2), aplica bg-bottom para telas médias e grandes
-    return currentIndex === 1 ? " md:bg-bottom lg:bg-bottom" : "";
+    return currentIndex === 1 ? "md:bg-bottom lg:bg-bottom" : "";
   };
 
   useEffect(() => {
