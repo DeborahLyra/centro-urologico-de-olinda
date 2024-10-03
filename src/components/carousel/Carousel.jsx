@@ -39,7 +39,7 @@ const ImageCarousel = () => {
     <div className="max-w-full h-64 relative group md:h-84 lg:h-96">
       {/* Imagem */}
       <div
-        className={`w-full h-full bg-contain bg-bottom transition-all duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover ${getBackgroundPosition()}`}
+        className={`w-full h-full bg-contain bg-center transition-all duration-500 ease-in-out bg-no-repeat md:bg-cover lg:bg-cover ${getBackgroundPosition()}`}
         style={{ backgroundImage: `url(${images[currentIndex]})` }}
       ></div>
 
