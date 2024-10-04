@@ -28,7 +28,7 @@ const mainProcedures = [
         href: '#',
     },
     {
-        name: 'Fisioterapia Pélvica',
+        name: 'Terapia de Biofeedback',
         description: 'A fisioterapia pélvica é uma área especializada que tem como objetivo o tratamento de disfunções nos músculos da região pélvica. Entre as principais técnicas utilizadas estão o Biofeedback EMG, que monitora a atividade elétrica muscular, permitindo o controle consciente da musculatura. A eletroestimulação é outra abordagem, que utiliza correntes elétricas de baixa intensidade para estimular a contração dos músculos pélvicos, ajudando a fortalecer e reabilitar essa região. Além disso, os exercícios pélvicos são essenciais, consistindo em atividades específicas para melhorar o tônus, coordenação e resistência dos músculos do assoalho pélvico.',
         imageSrc: exame4,
         imageAlt: 'Peniscopia',
