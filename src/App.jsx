@@ -5,6 +5,7 @@ import { Contact } from "./components/contact/Contact"
 import { Footer } from "./components/footer/Footer"
 import { ListOfDoctors } from "./components/listOfDoctors/ListOfDoctors"
 import { Navbar } from "./components/navbar/Navbar"
+import { VideoComponent } from "./components/videoClinic/VideoComponent"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <Navbar/>
     <ImageCarousel/>
     <ListOfDoctors/>
+    <VideoComponent/>
     <AboutTheClinic/>
     <Contact/>
     <Footer/>
