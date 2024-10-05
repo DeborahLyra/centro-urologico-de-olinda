@@ -40,7 +40,7 @@ const mainProcedures = [
 export function AboutTheClinic() {
     return (
         <>
-            <div className="bg-lightBlue py-16 sm:py-32 ">
+            <div className="bg-lightBlue py-16 sm:py-32 " id='exams'>
                 <h2 className="text-3xl font-bold tracking-tight ml-16 text-primary sm:text-4xl mb-4">Exames</h2>
 
                 {/* exames principais */}

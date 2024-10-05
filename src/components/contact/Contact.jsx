@@ -3,7 +3,7 @@ import React from 'react'
 
 export function Contact() {
     return (
-        <div className="bg-white py-16 sm:py-32 ">
+        <div className="bg-white py-16 sm:py-32 " id='contact'>
             <h2 className="text-3xl font-bold tracking-tight ml-16 text-primary sm:text-4xl mb-4">Contato</h2>
             <div className='bg-primary p-8'>
                 <h2 className="text-3xl md:text-4xllg:text-4xl font-bold tracking-tight ml-4 md:ml-16 lg:ml-16 text-white sm:text-4xl mb-4">Agende Sua Consulta</h2>
