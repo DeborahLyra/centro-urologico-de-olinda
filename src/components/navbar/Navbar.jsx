@@ -5,7 +5,7 @@ import logo from '/imgs/logo.jpeg'
 
 const navigation = [
   { name: 'Nossa Equipe', href: '#listOfDoctors', current: false },
-  { name: 'Sobre a Clínica', href: '#', current: false },
+  { name: 'Sobre a Clínica', href: '#aboutTheClinic', current: false },
   { name: 'Exames', href: '#exams', current: false }, 
   { name: 'Agende uma Consulta', href: '#contact', current: true },
 ]
