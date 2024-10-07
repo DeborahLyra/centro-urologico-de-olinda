@@ -6,12 +6,12 @@ import exame4 from '/public/imgs/exame-4.png'
 
 const mainProcedures = [
     {
-        name: 'Urofluxometria',
-        description: 'A urofluxometria é um exame urológico não invasivo que avalia o fluxo urinário do paciente. Ele mede a quantidade de urina expelida, a velocidade do jato urinário e o tempo necessário para esvaziar a bexiga. Durante o exame, o paciente urina em um dispositivo que registra essas informações. É útil no diagnóstico de problemas como obstruções urinárias, hiperplasia prostática benigna (HPB) e distúrbios de esvaziamento vesical. Os resultados ajudam o médico a identificar possíveis alterações no trato urinário inferior e a definir o tratamento mais adequado. O exame é rápido e indolor.',
+        name: 'Urofluxometria e Urodinâmica',
+        description: 'A urofluxometria e a urodinâmica são exames essenciais para avaliar a função do trato urinário. A urofluxometria mede o fluxo urinário, a velocidade e o tempo necessário para esvaziar a bexiga, ajudando a diagnosticar obstruções urinárias e outros distúrbios. Já a urodinâmica é um exame mais completo, que analisa a pressão dentro da bexiga e a função muscular durante o armazenamento e esvaziamento da urina. Ambos os exames são úteis no diagnóstico de problemas como hiperplasia prostática benigna (HPB), incontinência e disfunções vesicais. São procedimentos rápidos e indolores.',
         imageSrc: exame1,
-        imageAlt: 'Urofluxometria',
+        imageAlt: 'Urofluxometria e Urodinâmica',
         href: '#',
-    },
+    },    
     {
         name: 'Dopler Peniano e Testicular',
         description: 'O Doppler Peniano e Testicular são exames ultrassonográficos usados para avaliar o fluxo sanguíneo no pênis e nos testículos. O Doppler Peniano é aplicado em casos de disfunção erétil, medindo a circulação nas artérias e veias do pênis para identificar problemas vasculares, como insuficiência arterial ou fuga venosa. Já o Doppler Testicular avalia a vascularização dos testículos, sendo útil no diagnóstico de varicocele, torção testicular e tumores. Ambos os exames são seguros, minimamente invasivos e fornecem informações essenciais para o tratamento de condições urológicas, contribuindo para uma avaliação completa da saúde masculina.',

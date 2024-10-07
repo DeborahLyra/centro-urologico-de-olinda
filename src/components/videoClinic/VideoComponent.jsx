@@ -9,7 +9,7 @@ export function VideoComponent() {
                 <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">Sobre a Clínica</h2>
             </div>
             <div className='px-6 flex items-center justify-around flex-col'>
-                <div className='text-black text-center text-xl font-semibold'>
+                <div className='text-black text-center text-lg font-semibold lg:text-xl'>
                     <p >O Centro Urológico de Olinda, pioneiro em urologia na cidade, conta com uma equipe de médicos renomados. Oferecemos aos nossos pacientes o que há de mais moderno em tecnologia, aliado a um atendimento humanizado e acolhedor."</p>
                 </div>
                 <div className="flex justify-center items-center p-4">
