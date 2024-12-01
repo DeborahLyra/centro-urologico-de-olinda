@@ -23,7 +23,7 @@ export function Contact() {
                             <div className='bg-primary p-1 rounded-full mr-2'><a href="tel:(81)9.8946-2406"><Phone size={28} style={{ color: 'white' }} /></a></div>
                             <div className='lg:flex lg:items-center lg:gap-2 md:flex md:items-center md:gap-2'>
                                 <p>Telefone para contato: </p>
-                                <p> <a href="tel:(81)9.8946-2406">(81)9.8946-2406</a> | <a href="tel:(81)9.8491-3020">(81)9.8491-3020</a></p>
+                                <p> <a href="tel:(81)3012-5337">(81)3012-5337</a> | <a href="tel:(81)9.8491-3020">(81)9.8491-3020</a></p>
                             </div>
                         </div>
                     </div>
