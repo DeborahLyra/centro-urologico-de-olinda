@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo1 from "/public/imgs/centro-uro-1.jpeg";
 import logo2 from "/public/imgs/funcionarios.png";
-import allDocs from "/public/imgs/medicos.png";
-import allTeam from "/public/imgs/banner-equipe.png";
+import allTeam from "/public/imgs/banner-equipe.jpg";
 
 const images = [logo1,  allTeam, logo2];
 
@@ -23,7 +22,7 @@ const ImageCarousel = () => {
 
   const getBackgroundPosition = () => {
     // Se for a terceira imagem (índice 2), aplica bg-bottom para telas médias e grandes
-    return currentIndex === 1 ? "md:bg-bottom lg:bg-bottom" : "";
+    return currentIndex === 1 ? "bg-[center_80%] md:bg-[center_90%] lg:bg-[center_95%] bg-ima" : "";
   };
 
   useEffect(() => {
