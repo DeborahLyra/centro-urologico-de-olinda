@@ -1,5 +1,5 @@
 import React from 'react'
-import exame1 from '/public/imgs/exame-1.jpeg'
+import exame1 from '/public/imgs/exame-1.png'
 import exame2 from '/public/imgs/exame-2.jpeg'
 import exame3 from '/public/imgs/exame-3.png'
 import exame4 from '/public/imgs/exame-4.png'
