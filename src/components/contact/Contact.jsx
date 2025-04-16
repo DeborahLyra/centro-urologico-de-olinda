@@ -16,14 +16,14 @@ export function Contact() {
                             <p>Av. Dr. José Augusto Moreira, 900, sala 1011, Casa Caiada, Olinda-PE</p>
                         </div>
                         <div className='flex items-center text-black font-semibold mb-4'>
-                            <div className='bg-primary p-1 rounded-full mr-2'><a href="https://wa.me/5581989462406?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta" target='_blank'><WhatsappLogo size={28} style={{color: 'white'}}/></a></div>
+                            <div className='bg-primary p-1 rounded-full mr-2'><a href="https://wa.me/5581984913032?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta" target='_blank'><WhatsappLogo size={28} style={{color: 'white'}}/></a></div>
                             <p>Entre em contato pelo nosso WhatsApp</p>
                         </div>
                         <div className='flex items-center text-black font-semibold '>
                             <div className='bg-primary p-1 rounded-full mr-2'><a href="tel:(81)9.8946-2406"><Phone size={28} style={{ color: 'white' }} /></a></div>
                             <div className='lg:flex lg:items-center lg:gap-2 md:flex md:items-center md:gap-2'>
                                 <p>Telefone para contato: </p>
-                                <p> <a href="tel:(81)3012-5337">(81)3012-5337</a> | <a href="tel:(81)9.8491-3020">(81)9.8491-3020</a></p>
+                                <p> <a href="tel:(81)3012-5337">(81)3012-5337</a> | <a href="tel:(81)9.8491-3032">(81)9.8491-3032</a></p>
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ import robertaNovaes from '/public/imgs/doctors/roberta-novaes.jpeg'
 import rodolfoBrilhante from '/public/imgs/doctors/rodolfo-brilhante.jpeg'
 import sergioMoraes from '/public/imgs/doctors/sergio-moraes.jpeg'
 import wiltonBezerra from '/public/imgs/doctors/wilton-bezerra.jpeg'
-import carolinaMayumi from '/public/imgs/doctors/carolina-mayumi.jpeg'
+import yukieKonishi from '/public/imgs/doctors/yuke-2.png'
 import sandraSantana from '/public/imgs/doctors/sandra-santana.png'
 
 const people = [
@@ -16,12 +16,6 @@ const people = [
     name: 'Abelardo Alves',
     role: 'Urologia, Uroneurologia e Cirurgia Robótica',
     imageUrl: abelardoAlves,
-    urlPage: ''
-  },
-  {
-    name: 'Carolina Mayumi',
-    role: 'Urologia Feminina e Urodinâmica',
-    imageUrl: carolinaMayumi,
     urlPage: ''
   },
   {
@@ -82,6 +76,12 @@ const people = [
       name: 'Wilton Bezerra',
       role: 'Urologia Geral e Medicina Esportiva',
       imageUrl: wiltonBezerra,
+      urlPage: ''
+    },
+    {
+      name: 'Yukie Konishi',
+      role: 'Urologia Geral, Feminina e Pediátrica; Uroneurologia e Urodinâmica',
+      imageUrl: yukieKonishi,
       urlPage: ''
     },
 ]
